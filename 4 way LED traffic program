@@ -1,55 +1,55 @@
-int NY = 3 ; // North Yellow
+int NO= 3 ; // North orange
 int NG = 4 // North Green
 int SR = 5 // South Red
-int SY = 6 ; // South Yellow
+int SO= 6 ; // South orange
 int SG = 7 ; // South Green
 int ER = 8 ; //East Red
-int EY = 9 // East Yellow 
+int EO= 9 :// East orange
 int EG = 10 ; // East Green
 int WR = 11 ; // West Red
-int WY = 12 // West Yellow
+int WO = 12 // West Orange
 int WG = 13 ; // West Green
 void setup() {
 pinMode (NR, OUTPUT);
-pinMode(NY, OUTPUT);
+pinMode(NO, OUTPUT);
 pinMode(NG, OUTPUT);
 pinMode(SR, OUTPUT);
-pinMode(SY, OUTPUT);
+pinMode(SO, OUTPUT);
 pinMode(SG, OUTPUT);
 pinMode(ER, OUTPUT);
-pinMode(EY, OUTPUT);
+pinMode(EO, OUTPUT);
 pinMode(EG, OUTPUT);
 pinMode (WR, OUTPUT);
-pinMode(WY, OUTPUT);
+pinMode(WO, OUTPUT);
 pinMode(WG, OUTPUT);
 }void loop() 
 digitalWrite(NG, HIGH);///North///
 digitalWrite(SR, HIGH);
 delay(5000);
 digitalWrite(NG, LOW);
-digitalWrite(NY, HIGH);
+digitalWrite(NO, HIGH);
 delay(2000);
-digitalWrite(NY, LOW);
+digitalWrite(NO, LOW);
 digitalWrite(NR, HIGH);
 digitalWrite(SR, LOW);///south///
 digitalWrite(SG, HIGH);
 digitalWrite(SG, LOW);
 delay(5000);
-digitalWrite(SY, HIGH);
+digitalWrite(SO, HIGH);
 delay(2000);
 digitalWrite(EG, HIGH); 
 digitalWrite(WR, High);
 delay(5000);
 digitalWrite(EG, LOW);///East///
-digitalWrite(EY, HIGH);
+digitalWrite(EO, HIGH);
 delay(2000);
-digitalWrite(EY, LOW);
+digitalWrite(EO, LOW);
 digitalWrite(ER, HIGH);
 digitalWrite(WG, HIGH);
 delay(5000);
 digitalWrite(WG, LOW);///west///
-digitalWrite(WY, HIGH);
+digitalWrite(WO, HIGH);
 delay(2000);
-digitalWrite(WY, LOW);
+digitalWrite(WO, LOW);
 digitalWrite(WR, HIGH);
 }
