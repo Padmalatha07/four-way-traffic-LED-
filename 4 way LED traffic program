@@ -1,3 +1,4 @@
+int NR=2;// North Red 
 int NO= 3 ; // North orange
 int NG = 4 // North Green
 int SR = 5 // South Red
@@ -23,8 +24,8 @@ pinMode (WR, OUTPUT);
 pinMode(WO, OUTPUT);
 pinMode(WG, OUTPUT);
 }void loop() 
-digitalWrite(NG, HIGH);///North///
-digitalWrite(SR, HIGH);
+digitalWrite(NG, low);///North///
+digitalWrite(SR, High);
 delay(5000);
 digitalWrite(NG, LOW);
 digitalWrite(NO, HIGH);
