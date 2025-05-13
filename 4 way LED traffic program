@@ -31,14 +31,13 @@ digitalWrite(NO, HIGH);
 delay(2000);
 digitalWrite(NO, LOW);
 digitalWrite(NR, HIGH);
+delay(5000);
 digitalWrite(SR, LOW);///south///
 digitalWrite(SG, HIGH);
-digitalWrite(SG, LOW);
-delay(5000);
 digitalWrite(SO, HIGH);
 delay(2000);
+digitalWrite(SR,High);
 digitalWrite(EG, HIGH); 
-digitalWrite(WR, High);
 delay(5000);
 digitalWrite(EG, LOW);///East///
 digitalWrite(EO, HIGH);
